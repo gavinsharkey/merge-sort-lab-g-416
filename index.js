@@ -7,9 +7,9 @@ function merge(leftArray, rightArray) {
   
   while (leftArray.length !== 0 && rightArray.length !== 0) {
     if (leftArray[0] < rightArray[0]) {
-      sorted.push(findMinAndRemoveSorted(leftArray))
+      sorted.push(findMinAndRemoveSorted(leftArray));
     } else {
-      sorted.push(findMinAndRemoveSorted(rightArray))
+      sorted.push(findMinAndRemoveSorted(rightArray));
     }
   }
   

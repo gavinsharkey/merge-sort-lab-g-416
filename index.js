@@ -1,1 +1,3 @@
-function findMinAndRemoveSorted(array)
+function findMinAndRemoveSorted(array) {
+  return array.shift()
+}

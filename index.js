@@ -15,3 +15,7 @@ function merge(leftArray, rightArray) {
   
   return sorted.concat(leftArray).concat(rightArray);
 }
+
+function mergeSort(array) {
+  
+}
